@@ -1,0 +1,1 @@
+javascript:(function(){var d=document.createElement("input");document.body.appendChild(d),d.value=document.location.href.match(/.{27}$/),d.select(),document.execCommand("copy"),document.body.removeChild(d);})()
